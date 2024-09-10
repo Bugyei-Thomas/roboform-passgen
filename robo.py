@@ -50,11 +50,11 @@ def display_progress(progress, total_tasks):
         sys.stdout.flush()
 
 def main():
-    start_date = datetime(2012, 1, 1)
-    end_date = datetime(2015, 12, 31)
+    start_date = datetime(2023, 1, 1) # Modify the start date to your preferred date.
+    end_date = datetime(2024, 12, 31) # Modify end date also.
     min_length = 8
     max_length = 20
-    include_symbols = False  # no symbols
+    include_symbols = False  # No symbols. Change to true to include symbols
 
     num_cores = min(4, cpu_count())  # limiting to 4 cores
     current_date = start_date
