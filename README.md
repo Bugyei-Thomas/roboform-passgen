@@ -1,3 +1,9 @@
-# Usage
-`git clone https://github.com/Bugyei-Thomas/roboform-passgen`<br>
-`python3 robo.py`
+# Installation
+```
+git clone https://github.com/Bugyei-Thomas/roboform-passgen
+cd roboform-passgen
+```
+## Usage
+```
+python3 robo.py
+```
