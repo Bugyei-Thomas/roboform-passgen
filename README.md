@@ -7,3 +7,4 @@ cd roboform-passgen
 ```
 python3 robo.py
 ```
+<img src="robo.png"> </img>
